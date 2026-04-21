@@ -1,11 +1,27 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "算上一卦",
-  "orientation": "any",
-  "scope": "/suan-shang-yi-gua/",
+  "name": "算上一卦 - 立即测算你的命运",
   "short_name": "算上一卦",
-  "start_url": "https://yuejingfeng912.github.io/suan-shang-yi-gua/index.html",
-  "theme_color": "#ffffff"
+  "description": "中国传统术数占卜应用，支持小六壬、梅花易数、六爻、塔罗牌",
+  "start_url": "index.html",
+  "scope": "/suan-shang-yi-gua/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a1520",
+  "theme_color": "#d4a853",
+  "dir": "ltr",
+  "categories": ["lifestyle", "entertainment"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
 }
