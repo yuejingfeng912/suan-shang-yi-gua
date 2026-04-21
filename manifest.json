@@ -1,0 +1,23 @@
+﻿{
+  "short_name": "算上一卦",
+  "name": "算上一卦 - 中国传统术数占卜",
+  "description": "支持小六壬、梅花易数、六爻、塔罗牌，三法合参白话解读",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#1a1520",
+  "theme_color": "#d4a853",
+  "orientation": "portrait",
+  "categories": ["lifestyle", "entertainment"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
