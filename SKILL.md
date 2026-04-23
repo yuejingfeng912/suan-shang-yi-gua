@@ -196,6 +196,31 @@ description: |
 
 ---
 
+## 八字排盘
+
+**快捷命令：**
+```bash
+python scripts/bazi.py YYYY MM DD HH      # 八字排盘（公历年月日时）
+python scripts/bazi.py 1990 5 15 14       # 例：1990年5月15日14时
+```
+
+**输出内容：** 四柱八字、日主旺衰、格局用神、十神、神煞、分项论断、大运
+
+---
+
+## 金口诀起课
+
+**快捷命令：**
+```bash
+python scripts/jinkou.py                   # 金口诀起课（当前时间）
+python scripts/jinkou.py YYYY MM DD HH     # 指定时间起课
+python scripts/jinkou.py 2026 4 23 10      # 例：2026年4月23日10时
+```
+
+**输出内容：** 四课（人元、贵神、将神、地分）、生克关系、断事结论
+
+---
+
 ## 黄历查询
 
 **快捷命令：**
